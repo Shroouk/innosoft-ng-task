@@ -1,0 +1,7 @@
+<svg id="_Settings" data-name="# Settings" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="bound" width="28" height="28" fill="none"/>
+  <g id="cog" transform="translate(3.5 3.5)">
+    <path id="Path" d="M8.566,1.473a1.712,1.712,0,0,0,2.545,0l.828-.908A1.714,1.714,0,0,1,14.922,1.8L14.86,3.026a1.713,1.713,0,0,0,1.795,1.8l1.225-.062a1.714,1.714,0,0,1,1.234,2.984l-.912.822a1.715,1.715,0,0,0,0,2.545l.912.822a1.714,1.714,0,0,1-1.236,2.984l-1.225-.062a1.713,1.713,0,0,0-1.8,1.8l.062,1.225a1.714,1.714,0,0,1-2.977,1.234l-.823-.911a1.714,1.714,0,0,0-2.544,0l-.827.911a1.714,1.714,0,0,1-2.98-1.232l.063-1.225a1.713,1.713,0,0,0-1.8-1.8L1.8,14.921A1.713,1.713,0,0,1,.564,11.94l.911-.823a1.715,1.715,0,0,0,0-2.545L.564,7.745A1.713,1.713,0,0,1,1.8,4.765l1.225.062a1.713,1.713,0,0,0,1.8-1.8L4.764,1.8A1.714,1.714,0,0,1,7.744.565Z" transform="translate(0.661 0.66)" fill="none" stroke="#191919" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.75"/>
+    <circle id="Oval" cx="3.5" cy="3.5" r="3.5" transform="translate(7 7.001)" fill="none" stroke="#191919" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.75"/>
+  </g>
+</svg>
