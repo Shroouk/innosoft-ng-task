@@ -1,0 +1,25 @@
+<header>
+    <section class="nav-section">
+        <a href="#"><img src="../../../assets/images/search.svg" class="navbar_icon nav-setting_icon" alt="search icon"></a>
+        <a href="#"><img src="../../../assets/images/setting.svg" class="navbar_icon nav-setting_icon" alt="setting icon"></a>
+        <a href="#"><img src="../../../assets/images/user.svg" class="navbar_icon nav-user_icon" alt="user icon"></a>
+    </section>
+   
+  
+    <nav>
+      <ul class="nav__links" >
+        <li><a href="#"><span>الشركات</span></a></li>
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/contact']"><span>تواصل معنا</span></a></li>
+        <li><a href="#"><span>فرص انوسوفت</span></a></li>
+        <li><a href="#"><span>المبادرات</span></a></li>
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/about']"><span>عن المنصة</span></a></li>
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/']"><span>الرئيسية</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="nav__logo">     
+        <img src="../../../assets/images/logo.png" class="nav_logo_img" alt="innosoft logo">
+        <div class="bars"></div>
+    </div>
+   
+  </header>
