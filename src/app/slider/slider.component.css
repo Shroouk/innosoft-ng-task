@@ -1,0 +1,64 @@
+ngb-carousel .wrapper {
+  position: relative;
+  height: 0;
+  padding-top: 850px; /* Keep ratio for 900x500 images */
+}
+ngb-carousel .wrapper>img {
+  position: absolute;
+  top: 0;
+  /* left: 0; */
+  /* bottom: 0; */
+  /* right: 0; */
+  /* width: 1000px; */
+  /* object-position: center; */
+  /* object-fit: cover; */
+  width: 100vw;
+  height: 100%;
+}
+.carousel-indicators{
+  bottom: 160px !important;
+}
+.carousel-caption {
+  top: 210px;
+}
+.innosoft-heading{
+  font-size: 48px;
+  font-family: 'Frutiger LT Arabic', sans-serif;  
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+.innosoft-sub-heading{
+  font-size: 38px;
+  font-family: 'Frutiger LT Arabic', sans-serif;  
+  color: #F2F2F2;
+  font-weight: 300;
+  direction: rtl;
+}
+
+.btn-link{
+  background-color: #009EE2;
+  color: #fff;
+  font-size: 24px;
+  padding: 12px 10px;
+  text-decoration: none;
+  border-color: #009ee2;
+  margin-top: 45px;
+}
+
+@media screen and (max-width:768px) {
+  .innosoft-heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.innosoft-sub-heading {
+  font-size: 20px;
+}
+.btn-link {
+  font-size: 18px;
+  padding: 6px 8px;
+}
+ngb-carousel .wrapper {
+  padding-top: 700px;
+}
+
+}
