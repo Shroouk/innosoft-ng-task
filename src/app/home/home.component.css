@@ -1,0 +1,272 @@
+/* advantages section style */
+.advantages-wrapper{
+    position: relative;
+    height: 522px;
+    width: 95%;
+    border-radius: 4px;
+    padding: 73px 150px;
+    margin: -80px auto 50px auto;
+    background: transparent linear-gradient(253deg, #CFDEE5 0%, #BCCCD3 50%, #009EE2 100%) 0% 0% no-repeat padding-box;
+}
+.advantages-heading{
+    font-size: 48px;
+    color: #fff;
+    margin-bottom:60px;
+}
+.advantages-card{
+    height: 398px;
+    box-shadow: 0px 2px 14px #0000000F;
+    border: 0px;
+    border-radius: 8px;
+    text-align: right;
+    direction: rtl;
+    padding-top: 70px;
+    padding-right: 23px;
+}
+@media (min-width:1900px) {
+    .advantages-card p{
+        font-size: 24px;
+    }
+}
+.card-icon{
+    width: 65px;
+    
+}
+.adv-card-heading{
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+/* love SA section style */
+.sa-wrapper{
+    margin-top: 103px;
+}
+.details-card{
+    height: 386px;
+    box-shadow: 0px 2px 14px #0000000F;
+    border: 0px;
+}
+.details-card .card-body{
+    margin: 55px 0;
+}
+.sa-heading{
+    font-size: 48px;
+    font-weight: bold;
+    color: #262626;
+    margin-bottom: 60px;
+}
+.sa-img{
+    width: 120px;
+}
+.sa-wrapper p{
+    font-size: 28px;
+}
+.details-link{
+    font-size: 24px;
+    color: #009EE2;
+    text-decoration: none;
+}
+.details-arrow{
+    width: 28px;
+}
+
+/* chances section style */
+.chances-wrapper{
+    height: 509px;
+    background-color: #2E2E2E;
+    margin-top: 70px;
+}
+.chances-col{
+    text-align: right;
+}
+.chances-card{
+    margin-top: 72px;
+    height: 634px;
+    box-shadow: 0px 2px 14px #0000000F;
+    border: 0px;
+}
+.chanse-card-img{
+    height: 289px;
+    width: 100%;
+}
+.chances-card .card-title{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    
+}
+.chances-card .card-text{
+    font-size: 18px;
+    font-weight: 300;
+    color: #4B4B4B;
+}
+@media (min-width:1900px) {
+    .chances-card .card-title{
+        font-size: 32px;
+    }
+    .chances-card .card-text{
+        font-size: 24px;
+    }
+    .slider-wrapper h3{
+        font-size: 24px
+    }
+}
+.chanse-card-footer span{
+    color: #4B4B4B;
+    font-size: 15px;
+}
+.chanse-icon{
+    width: 20px;
+    margin-left: 15px;
+}
+.chances-sec{
+    text-align-last: right;
+    margin-right: 90px;
+}
+.chances-heading{
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.chances-sec p{
+    font-size: 28px;
+    color: #C6C6C6;
+    margin-bottom: 74px;
+}
+.btn-details{
+    color: #fff;
+    background-color: #009EE2;
+    padding: 20px 38px;
+    font-size: 28px;
+}
+
+/* achievement section style */
+.achievement-wrapper{
+    margin-top: 250px;
+}
+.achievement-sub-heading{
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #262626;
+}
+.achievement-wrapper p{
+    direction: rtl;
+    font-size:28px;
+    color: #262626;
+}
+.achievement-slider-img{
+    width: 100%;
+}
+.slider-wrapper h3{
+    font-size: 18px;
+    color: #4B4B4B;
+    margin-top: 30px;
+    direction: rtl;
+}
+
+/* community section style */
+.community-wrapper{
+    margin-top: 135px;
+}
+.community-slider img{
+    width: 120px;
+}
+
+
+@media screen and (max-width:768px) { 
+  .advantages-wrapper {
+    height: 522px;
+    padding: 45px 30px ;
+    margin: -80px auto 340px auto;
+  }
+  .advantages-heading {
+    font-size: 38px;
+    margin-bottom: 50px;
+  }
+  .adv-card-heading {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  .card-icon {
+    width: 45px;
+  }
+  .advantages-card{
+    height: 315px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .details-card{
+    height: 245px;
+  }
+  .details-card .card-body {
+    margin: 0;
+}
+  .sa-img {
+    width: 85px;
+}
+.sa-wrapper p {
+    font-size: 18px;
+}
+.details-link {
+    font-size: 14px;
+}    
+.details-arrow {
+    width: 18px;
+}
+.last-col{
+        order: -1!important;
+}
+.chances-heading {
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.chances-secp{
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.chances-sec {
+    margin-right: 20px;
+}
+.btn-details{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.chances-sec p {
+    font-size: 18px;
+}
+.chanse-card-img {
+    height: 150px;
+    width: 100%;
+}
+.chances-card .card-title {
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+.chances-card {
+    height: auto;
+}
+.achievement-wrapper {
+    margin-top: 1092px;
+}
+.sa-heading {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.achievement-sub-heading {
+    font-size: 28px;
+}
+.achievement-wrapper p {
+    font-size: 16px;
+}
+}  
+
+@media (max-width: 425px){
+.chances-sec{
+    margin-right: 110px;
+}
+}
